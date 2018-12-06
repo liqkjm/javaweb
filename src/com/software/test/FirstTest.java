@@ -1,11 +1,10 @@
 package com.software.test;
 
+import com.software.entity.User;
+import com.software.jdbcutil.JDBCUtils;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.junit.jupiter.api.Test;
-
-import com.software.entity.User;
-import com.software.jdbcutil.JDBCUtils;
 
 
 class FirstTest {

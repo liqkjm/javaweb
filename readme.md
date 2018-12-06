@@ -1,37 +1,50 @@
+# 学生信息管理平台开发说明
+
+## 小组分工
+
+6人
+
+- 后台
+    - 数据库操作部分
+        - entity层
+        - DAO层
+        - implement层
+        - jdbcutil工具类
+    - 与前端的操作部分
+        - servlet层
+        - filter层
+    - 单元测试
+- 前端
+    - 全局页面
+        - 登录页面
+        - 找回密码页面
+        - 修改密码页面
+    - 学生页面
+    - 教师页面
+    - 教务员页面
+    - 管理员页面
+
+
+
+## 如何运行该项目
+第一次运行项目：
+
 1. 文件都报错：
 导入工程后，加载javax.servlet
 
 2. 文件名的小红叉都消失了，但项目图标上还有小红叉：
-
-使用show view查看problems显示：
-> Target runtime Apache Tomcat v7.0 is not defined.	javaweb_project		Unknown	Faceted Project Problem
 
 由于他人工程中的org.eclipse.wst.common.project.facet.core.xml文件中存在一个<runtime>标签，里面进行了相关定义和声明导致的。
 ，其中定义了Tomcat的版本，将其改为自己Tomcat服务器的版本就可以了。
 
 > <runtime name="Apache Tomcat v8.5"/>
 
-3. 更改数据库地址，在c3p0-config.xml文件中
+3. 更改数据库地址以及用户名和密码，在c3p0-config.xml文件中
 
 
 4. 运行Tomcat后。访问http://localhost:8080/javaweb_project/login/login.jsp
 
-5. 修改SQL语句中的大写为小写,没有驼峰命令设置，未更改任何相关的设置，只能将代码中的驼峰表名全部改为小写
-
-	已修改(表名)：
-	studentGrade
-	cetGrade
-	studentBasicInformation
-	optionalCourse
-	StudentOptCourse
-	levelExam
-	levelExamlist
-
-TODO：
-1. 理解c3p0开源JDBC连接池的使用
-2. servlet层
-3. filter层
-
+## 项目结构
 数据库操作：
 
 三个文件：
