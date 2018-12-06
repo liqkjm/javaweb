@@ -41,8 +41,9 @@
 
 3. 更改数据库地址以及用户名和密码，在c3p0-config.xml文件中
 
-
 4. 运行Tomcat后。访问http://localhost:8080/javaweb_project/login/login.jsp
+
+如果是Idea，需要配置默认访问目录为WebContent，然后访问http://localhost:8080/
 
 ## 项目结构
 数据库操作：
