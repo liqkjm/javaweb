@@ -1,4 +1,5 @@
 # 学生信息管理平台开发说明
+## 介绍
 
 ## 小组分工
 
@@ -25,30 +26,29 @@
     - 管理员页面
 
 
-
 ## 如何运行该项目
 第一次运行项目：
 
-1. 文件都报错：
-导入工程后，加载javax.servlet
+如果使用IDEA：
+1. 使用IDEA导入该工程
+2. 使用IDEA定位到红色的报错位置，Alt+Enter导入所需要的包（javax和Junit）
+3. 运行test包下的FirstTest文件，测试能否运行java程序和能否连接数据库
+4. 配置Tomcat(这里使用的是8.5)，在deployment中设置WebContent目录映射路径为/，配置默认访问目录为WebContent
+5. 然后访问http://localhost:8080/
 
+如果使用Eclipse：
+1. 文件都报错：导入工程后，加载javax.servlet和junit包
 2. 文件名的小红叉都消失了，但项目图标上还有小红叉：
-
 由于他人工程中的org.eclipse.wst.common.project.facet.core.xml文件中存在一个<runtime>标签，里面进行了相关定义和声明导致的。
 ，其中定义了Tomcat的版本，将其改为自己Tomcat服务器的版本就可以了。
-
-> <runtime name="Apache Tomcat v8.5"/>
-
+<runtime name="Apache Tomcat v8.5"/>
 3. 更改数据库地址以及用户名和密码，在c3p0-config.xml文件中
-
 4. 运行Tomcat后。访问http://localhost:8080/javaweb_project/login/login.jsp
-
-如果是Idea，需要配置默认访问目录为WebContent，然后访问http://localhost:8080/
 
 ## 项目结构
 数据库操作：
 
-三个文件：
+三个底层文件：
 	c3p0-config.xml
 	JDBCUtils.java
 	DAO.java
@@ -160,11 +160,11 @@ acdemic_dean页面：
 teacher页面：
 
 
-录入学生成绩bug：
-
-
-毫无头绪，单单课程表查不出来
-只有插入，没有更新，且插入已经存在的成绩也能成功
+    录入学生成绩bug：
+    
+    
+    毫无头绪，单单课程信息查不出来
+    只有插入，没有更新，且插入已经存在的成绩也能成功
 
 
 
