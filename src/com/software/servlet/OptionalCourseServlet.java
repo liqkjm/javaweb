@@ -13,10 +13,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.software.dao.OptionalCourseDAO;
-import com.software.dao.StudentOptCourseDAO;
-import com.software.entity.OptionalCourse;
-import com.software.entity.StudentOptCourse;
 import com.software.entity.User;
 import com.software.impl.OptionalCourseDAOImpl;
 import com.software.impl.StudentOptCourseDAOImpl;

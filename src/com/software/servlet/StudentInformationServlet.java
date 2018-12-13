@@ -12,9 +12,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.software.dao.StudentBasicInforDAO;
-import com.software.entity.StudentBasicInformation;
-import com.software.entity.User;
 import com.software.impl.StudentBasicInforDAOImpl;
 
 /**

@@ -1,7 +1,6 @@
 package com.software.servlet;
 
 import java.io.IOException;
-import java.lang.reflect.Method;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -10,10 +9,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.software.dao.CourseQueryDAO;
-import com.software.dao.StudentGradeDAO;
-import com.software.entity.StudentGrade;
-import com.software.entity.Course;
 import com.software.impl.CourseQueryDAOImpl;
 import com.software.impl.StudentGradeDAOIpml;
 

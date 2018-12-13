@@ -1,9 +1,5 @@
 package com.software.impl;
 
-import com.software.dao.CourseQueryDAO;
-import com.software.dao.DAO;
-import com.software.entity.Course;
-
 public class CourseQueryDAOImpl extends DAO<Course> implements CourseQueryDAO {
 
 	@Override

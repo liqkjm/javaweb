@@ -14,17 +14,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.software.dao.LevelExamDAO;
-import com.software.dao.LevelExamListDAO;
-import com.software.dao.OptionalCourseDAO;
-import com.software.dao.StudentBasicInforDAO;
-import com.software.dao.StudentOptCourseDAO;
-import com.software.entity.CriterStudent;
-import com.software.entity.LevelExam;
-import com.software.entity.LevelExamList;
-import com.software.entity.OptionalCourse;
-import com.software.entity.StudentBasicInformation;
-import com.software.entity.StudentOptCourse;
 import com.software.impl.LevelExamDAOImpl;
 import com.software.impl.LevelExamListDAOImpl;
 import com.software.impl.OptionalCourseDAOImpl;

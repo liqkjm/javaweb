@@ -8,8 +8,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.software.dao.PostponeExamApplyDAO;
-import com.software.entity.PostponeExamApply;
 import com.software.entity.User;
 import com.software.impl.PostponeExamApplyDAOImpl;
 

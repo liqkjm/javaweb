@@ -10,8 +10,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.software.dao.UserDAO;
-import com.software.entity.CriterUser;
 import com.software.entity.User;
 import com.software.impl.UserDAOImpl;
 

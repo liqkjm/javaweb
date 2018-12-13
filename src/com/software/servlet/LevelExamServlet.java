@@ -13,10 +13,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.software.dao.LevelExamDAO;
-import com.software.dao.LevelExamListDAO;
-import com.software.entity.LevelExam;
-import com.software.entity.LevelExamList;
 import com.software.entity.User;
 import com.software.impl.LevelExamDAOImpl;
 import com.software.impl.LevelExamListDAOImpl;

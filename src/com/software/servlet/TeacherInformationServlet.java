@@ -12,8 +12,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.software.dao.TeacherDAO;
-import com.software.entity.Teacher;
 import com.software.entity.User;
 import com.software.impl.TeacherDAOImpl;
 /**

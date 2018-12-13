@@ -10,8 +10,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.software.dao.ExamArrangeDAO;
-import com.software.entity.ExamArrange;
 import com.software.entity.User;
 import com.software.impl.ExamArrangeDAOImpl;
 
